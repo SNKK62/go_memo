@@ -1,17 +1,17 @@
 Go package
-```go
+```console
 $ go mod init module_name
 ```
 でmoduleを初期化
 
-```go
+```console
 $ go mod tidy
 ```
 でpackageをinstallできる
 
-````go
+```console
 $ go build -o bin_file
-````
+```
 でbuildできる
 
 - 変数は同じpackageでは共有される
