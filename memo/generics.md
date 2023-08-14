@@ -26,7 +26,7 @@ m2 := map[int]float32{
     2: 4.56
     3: 7.89
 }
-func[K int | string, V constraints.Float | constraints.Integer](m map[K]V) V {
+func SumValues[K int | string, V constraints.Float | constraints.Integer](m map[K]V) V {
     var sum V
     for _, v := range m {
         sum += v
