@@ -44,7 +44,7 @@ func multiply() func(int) int {
     }
 }
 ```
-- defer は関数を抜けるタイミングで実行（stak?）
+- defer は関数を抜けるタイミングで実行（stack?）
 - ...string で可変長
 - files... で展開
 - 無名関数は引数にできる
