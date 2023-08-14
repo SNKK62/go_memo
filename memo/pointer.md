@@ -9,7 +9,7 @@ fmt.Printf("value of dereference of p1: %v", *p1)
 fmt.Printf("size of p1: %d[bytes]\n", unsafe.Sizeof(p1))
 ```
 - pointerはC言語と同じ
-- * はdereference
+- \* はdereference
 - pointerのサイズは８bytes
 
 
