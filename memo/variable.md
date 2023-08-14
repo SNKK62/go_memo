@@ -7,10 +7,12 @@ i := 1
 ```
 
 varの場合の初期化
-| bool    | false |
-| gint     | 0     |
-| string  | ""    |
-| pointer | nil   |
+| type    | default |
+| ----    | ----    |
+| bool    | false   |
+| gint    | 0       |
+| string  | ""      |
+| pointer | nil     |
 - varは関数外でも使える（0値で初期化する）
 - := は関数内でしか使えない
 
