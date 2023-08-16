@@ -117,3 +117,4 @@ func generateCountStream() <- chan int {
 ```
 - `<- chan int` 読み込み専用のchannelの型
 - `sturct{}` は０バイトしか消費しないので通知専用のchannelに適している
+- 通知専用channelではcloseするまで処理を止めている（closeした瞬間に一気に処理が走る）
