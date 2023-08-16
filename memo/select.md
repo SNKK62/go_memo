@@ -63,6 +63,7 @@ func main() {
     }
 }
 ```
+- `default` がないと`select` 自体がプロックされる
 ## receive continuous data
 ```go
 const bufSize = 5
